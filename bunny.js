@@ -4653,7 +4653,7 @@
       init_logger();
       init_toasts();
       import_react_native5 = __toESM(require_react_native());
-      versionHash = "a20413d-local";
+      versionHash = "69aac9f-local";
     }
   });
 
@@ -15185,7 +15185,7 @@
             uri: pyoncord_default
           },
           render: () => Promise.resolve().then(() => (init_General(), General_exports)),
-          useTrailing: () => `(${"a20413d-local"})`
+          useTrailing: () => `(${"69aac9f-local"})`
         },
         {
           key: "BUNNY_PLUGINS",
@@ -15682,7 +15682,7 @@
         alert([
           "Failed to load Bunny!\n",
           `Build Number: ${ClientInfoManager.Build}`,
-          `Bunny: ${"a20413d-local"}`,
+          `Bunny: ${"69aac9f-local"}`,
           stack || e?.toString?.()
         ].join("\n"));
       }
